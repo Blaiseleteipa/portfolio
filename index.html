@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blaise Leteipa | Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header>
+    <nav>
+      <div class="logo">Blaise</div>
+      <ul class="nav-links">
+        <li><a href="index.html" id="home-link">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">☰</div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HOME SECTION ===== -->
+    <section id="home" class="section">
+      <div class="hero">
+        <h1 aria-label="Hello, I'm Blaise Leteipa">Hello, I'm <span class="name-highlight">Blaise Leteipa</span></h1>
+        <p>Aspiring Software Developer | Data Science & Cybersecurity Enthusiast</p>
+        <a href="portfolio.html" class="btn">View My Work</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© <span id="year"></span> Blaise Leteipa | All Rights Reserved</p>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

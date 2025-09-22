@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header>
+    <nav>
+      <div class="logo">Blaise</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html" id="portfolio-link">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">☰</div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== PORTFOLIO SECTION ===== -->
+    <section id="portfolio" class="section">
+      <h2>My Project</h2>
+      <div class="portfolio-grid">
+        <div class="project-card">
+          <img src="assets/AGRI-CONNECT.jpg" alt="Project 1">
+          <h3>Project One</h3>
+          <p>AGRI-CONNECT is a hackathon project built under UN SDG 2: Zero Hunger. It empowers farmers with insights on suitable crops to grow and builds a food-sharing network to reduce waste and improve food accessibility.</p>
+          <a href="https://github.com/Blaiseleteipa/AGRI-CONNECT" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© <span id="year"></span> Blaise Leteipa | All Rights Reserved</p>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
