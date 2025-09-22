@@ -31,3 +31,5 @@ It is a multi-page website that includes:
 ## Project Assets
 - `assets/Profile.jpg` → profile image
 - `assets/AGRI-CONNECT.jpg` → project image
+LINK 
+https://blaiseleteipa.github.io/portfolio/
